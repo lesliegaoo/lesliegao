@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    .folders {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .folder {
+      text-align: center;
+      cursor: pointer;
+    }
+    .folder img {
+      width: 80px;
+      height: 80px;
+    }
+    .folder p {
+      margin-top: 5px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <h1>WELCOME!</h1>
+  <div class="folders">
+    <div class="folder">
+      <a href="about.html">
+        <img src="folder-icon.png" alt="About Folder">
+        <p>About</p>
+      </a>
+    </div>
+    <div class="folder">
+      <a href="music.html">
+        <img src="folder-icon.png" alt="Music Folder">
+        <p>Music I Love</p>
+      </a>
+    </div>
+    <div class="folder">
+      <a href="lore.html">
+        <img src="folder-icon.png" alt="Lore Folder">
+        <p>Lore</p>
+      </a>
+    </div>
+    <div class="folder">
+      <a href="lyrics.html">
+        <img src="folder-icon.png" alt="Lyrics Folder">
+        <p>Lyrics & Quotes</p>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
